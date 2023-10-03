@@ -3,5 +3,5 @@ Console.WriteLine("Hello, World!");
 
 
 Console.Write("Write your name please: ");
-string name = Console.ReadLine();
+string name = Console.ReadLine().ToUpper();
 Console.WriteLine(name);
